@@ -30,6 +30,7 @@ nav li{
   }
   main > img{
     margin-bottom:30px;
+    
   }
 
   main > ul {
@@ -38,7 +39,7 @@ nav li{
   }
   main > ul img{
     float: left;
-    margin-right: 0px 30px 30px 0px;
+    margin: 0px 30px 30px 0px;
 
   }
   main > ul li:last-child img{
@@ -47,25 +48,25 @@ nav li{
 
   main section img{
     float: left;
+    margin-right: 30px;
   }
   
   main section article {
-    width: 47%;
+    width: 36.666%;
     float: left;
   }
   main section h2 {
     font-size: 1.5em;
   }
 
-  main section article p{
+  main section article p {
     height: 320px;
     overflow: scroll;
-
   }
 
   main section article button {
-    background-color:000;
+    background-color:black;
     color:white;
     height: 40px;
-    width: 170px;
+    width: 200px;
   }

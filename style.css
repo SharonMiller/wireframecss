@@ -2,7 +2,7 @@ header {
   background-color: #575757;
   padding: 10px 0;
   margin-bottom: 30px;
-  max-width:1100px;
+  max-width:1020px;
 }
 nav {
   height: 70px;
@@ -31,11 +31,10 @@ nav li a{
   color: #ffffff;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: lighter;
+  font-weight: 50px;
 
 }
 
-  }
   main{
     max-width: 960;
     margin-left: 2.5%;
@@ -78,29 +77,30 @@ nav li a{
   main section article p {
     height: 330px;
     overflow: scroll;
-    max-width:100%;
+    max-width:443px;
   }
 
-  main section article button {
+  button {
     background-color:black;
     color:white;
     height: 40px;
     width: 200px;
     margin-top: 8px;
-    opacity: .6;
-    transition: 0.35s;
-    hover
-  }
-  /* main section article button{
-  } */
-
-  footer {
+    transition: all 35ms grey;
+    }
+  
+   button:hover {
+      background-color: grey;
+   
+     /* HOVER ON
+      -webkit-transition: border-radius 2s; */
+   }
+    footer {
     background-color: #575757;
-    max-width: 1100px;
+    max-width: 1020px;
     clear: both;
     height: 150px;
     padding: 10px 0;
-    margin-top: 30px;
-
+    margin-top: 30px
 
   }
